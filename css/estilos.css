@@ -107,6 +107,14 @@ h2{
     letter-spacing: 5px;
     }
 
+    button{
+        margin: 20px;
+    }
+
+    p{
+        margin-top: 20px;
+    }
+
 
 @media(min-width: 768px){
 
