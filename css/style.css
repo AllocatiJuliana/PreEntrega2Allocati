@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+a, .contacto {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+footer {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 0px;
+  margin-top: 100px;
+  background-color: rosybrown;
+  display: flex;
+  justify-content: space-around;
+}
+
+.iconos, .navFooter, .contacto {
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.imgSub {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+
+.secProducto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.bannerPie {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+input, textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+}
+
+.infoProducto {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgIndex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 10px;
+}
+
+h2 {
+  margin-top: 100px;
+  font-size: xx-large;
+  letter-spacing: 5px;
+}
+
+button {
+  margin: 20px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .imgSub {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  .secProducto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  a, .contacto {
+    font-size: x-large;
+  }
+  .imgIndex {
+    display: flex;
+    gap: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  .imgSub {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    justify-content: center;
+  }
+  .liPrincipal {
+    display: inline;
+    margin: 30px;
+  }
+  .secProducto {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+  }
+  form {
+    width: 100%;
+    text-align: center;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+}/*# sourceMappingURL=style.css.map */
