@@ -155,12 +155,12 @@ h2 {
   a, .contacto {
     font-size: x-large;
   }
-}
-@media (min-width: 1024px) {
   nav ul li {
     display: inline;
     margin: 30px;
   }
+}
+@media (min-width: 1024px) {
   form {
     width: 100%;
     text-align: center;

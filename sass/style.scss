@@ -19,7 +19,6 @@ ul{
     list-style: none;
 }
 
-
 footer{
     text-decoration: none;
     list-style: none;
@@ -74,7 +73,6 @@ textarea{
 
 }
 
-
 h2{
     margin-top: 100px;
     font-size: xx-large;
@@ -88,21 +86,22 @@ h2{
     padding-bottom: 50px;
 }
 
+
 @media(min-width: 768px){
 
 a, .contacto{
     font-size: x-large;
 }
 
-}
-
-
-@media(min-width: 1024px){
-
 nav ul li{
     display: inline;
     margin: 30px;
 }
+
+}
+
+
+@media(min-width: 1024px){
 
 form{
     width: 100%;
