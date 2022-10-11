@@ -81,8 +81,8 @@ a, .contacto {
 }
 
 nav {
-  margin-bottom: 50px;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 ul {
@@ -90,10 +90,10 @@ ul {
 }
 
 footer {
+  margin-top: 100px;
+  margin-bottom: 0px;
   text-decoration: none;
   list-style: none;
-  margin-bottom: 0px;
-  margin-top: 100px;
   background-color: rosybrown;
   display: flex;
   justify-content: space-around;
@@ -152,12 +152,15 @@ h2 {
 }
 
 @media (min-width: 768px) {
-  a, .contacto {
-    font-size: x-large;
-  }
   nav ul li {
     display: inline;
     margin: 30px;
+  }
+  nav ul li a, nav ul li .contacto {
+    font-size: x-large;
+  }
+  a, .contacto {
+    font-size: large;
   }
 }
 @media (min-width: 1024px) {
@@ -168,5 +171,9 @@ h2 {
   footer {
     display: flex;
     justify-content: space-around;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: rosybrown;
   }
 }/*# sourceMappingURL=style.css.map */
