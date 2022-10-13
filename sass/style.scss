@@ -125,9 +125,12 @@ footer{
     justify-content: space-around;
 }
 
-button:hover{
+.infoProducto{
+
+    button:hover{
     cursor: pointer;
     background-color: $background-color;
+}
 }
 
 }
