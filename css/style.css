@@ -110,10 +110,14 @@ footer {
   justify-content: space-around;
 }
 
-.iconos, .navFooter {
+.navFooter, .contacto, .iconos {
   justify-content: space-around;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.contacto li img {
+  padding: 10px;
 }
 
 input, textarea {
@@ -145,12 +149,6 @@ h2 {
   margin-top: 100px;
   font-size: xx-large;
   letter-spacing: 5px;
-}
-
-.contacto {
-  justify-content: space-around;
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .formulario {
