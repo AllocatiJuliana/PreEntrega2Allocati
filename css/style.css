@@ -74,6 +74,17 @@ body {
   }
 }
 
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.bannerPie {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
 a, .contacto {
   text-decoration: none;
   color: black;
@@ -82,7 +93,7 @@ a, .contacto {
 
 nav {
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: -50px;
 }
 
 ul {
@@ -90,7 +101,7 @@ ul {
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 0px;
   text-decoration: none;
   list-style: none;
@@ -103,17 +114,6 @@ footer {
   justify-content: space-around;
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.banner {
-  width: 100%;
-  height: auto;
-}
-
-.bannerPie {
-  width: 100%;
-  height: auto;
-  margin-top: 100px;
 }
 
 input, textarea {
@@ -137,6 +137,8 @@ textarea {
 }
 .infoProducto button {
   margin: 20px;
+  border-radius: 50px;
+  height: 25px;
 }
 
 h2 {
@@ -151,12 +153,24 @@ h2 {
   padding-bottom: 50px;
 }
 
+.formulario {
+  margin-top: 100px;
+}
+
+.carousel-inner {
+  margin-top: 50px;
+}
+
 @media (min-width: 768px) {
-  nav ul li {
+  nav {
+    margin-top: 75px;
+    margin-bottom: 30px;
+  }
+  nav li {
     display: inline;
     margin: 30px;
   }
-  nav ul li a, nav ul li .contacto {
+  nav li a, nav li .contacto {
     font-size: x-large;
   }
   a, .contacto {
@@ -164,16 +178,15 @@ h2 {
   }
 }
 @media (min-width: 1024px) {
-  form {
-    width: 100%;
-    text-align: center;
-  }
   footer {
     display: flex;
     justify-content: space-around;
   }
   .infoProducto button:hover {
     cursor: pointer;
-    background-color: rosybrown;
+    background-color: gray;
+  }
+  .facebook:hover, .instagram:hover, .twitter:hover {
+    transform: scale(1.5);
   }
 }/*# sourceMappingURL=style.css.map */

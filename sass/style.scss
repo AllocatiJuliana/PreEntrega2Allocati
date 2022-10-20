@@ -20,7 +20,7 @@ a{
 }
 
 nav{
-    @include margin(20px, 50px);
+    @include margin(20px, -50px);
 }
 
 ul{
@@ -28,7 +28,7 @@ ul{
 }
 
 footer{
-    @include margin(100px, 0px);
+    @include margin(50px, 0px);
     text-decoration: none;
     list-style: none;
     background-color: $background-color;
@@ -39,17 +39,6 @@ footer{
 .iconos, .navFooter{
     justify-content: space-around;
     @include padding(50px, 50px);
-}
-
-.banner{
-    width: 100%;
-    height: auto;
-}
-
-.bannerPie{
-    width: 100%;
-    height: auto;
-    margin-top: 100px;
 }
 
 input{
@@ -75,7 +64,8 @@ textarea{
 
     button{
         margin: 20px;
-        
+        border-radius: 50px;
+        height: 25px;
     }
 
 }
@@ -92,10 +82,21 @@ h2{
     @include padding(50px, 50px)
 }
 
+.formulario{
+    margin-top: 100px;
+}
+
+.carousel-inner{
+    margin-top: 50px;
+}
+
 
 @media(min-width: 768px){
 
-nav ul li{
+nav{
+    @include margin(75px, 30px);
+
+    li{
     display: inline;
     margin: 30px;
 
@@ -104,21 +105,15 @@ nav ul li{
     }
 
 }
+}
 
 a{
     font-size: large;
 }
 
-
 }
-
 
 @media(min-width: 1024px){
-
-form{
-    width: 100%;
-    text-align: center;
-}
 
 footer{
     display: flex;
@@ -126,11 +121,18 @@ footer{
 }
 
 .infoProducto{
-
     button:hover{
     cursor: pointer;
-    background-color: $background-color;
+    background-color: gray;
 }
+}
+
+.facebook:hover{
+    transform: scale(1.5);
+}
+
+.instagram, .twitter{
+    @extend .facebook;
 }
 
 }
