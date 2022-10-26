@@ -60,20 +60,6 @@ body {
   }
 }
 
-.imgIndex {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  margin-top: 100px;
-  gap: 10px;
-}
-@media (min-width: 768px) {
-  .imgIndex {
-    display: flex;
-    gap: 50px;
-  }
-}
-
 .banner {
   width: 100%;
   height: auto;
@@ -116,6 +102,9 @@ footer {
   padding-bottom: 50px;
 }
 
+.contacto {
+  text-align: justify;
+}
 .contacto li img {
   padding: 10px;
 }
@@ -140,9 +129,7 @@ textarea {
   margin-top: 20px;
 }
 .infoProducto button {
-  margin: 20px;
-  border-radius: 50px;
-  height: 25px;
+  border-radius: 20px;
 }
 
 h2 {
@@ -182,7 +169,7 @@ h2 {
   }
   .infoProducto button:hover {
     cursor: pointer;
-    background-color: gray;
+    background-color: rosybrown;
   }
   .facebook:hover, .instagram:hover, .twitter:hover {
     transform: scale(1.5);

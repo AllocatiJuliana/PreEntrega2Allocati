@@ -48,6 +48,7 @@ footer{
 .contacto{
     @extend a;
     @extend .navFooter;
+    text-align: justify;
 
     li img{
         padding: 10px;
@@ -77,9 +78,7 @@ textarea{
     }
 
     button{
-        margin: 20px;
-        border-radius: 50px;
-        height: 25px;
+        border-radius: 20px;
     }
 
 }
@@ -131,7 +130,7 @@ footer{
 .infoProducto{
     button:hover{
     cursor: pointer;
-    background-color: gray;
+    background-color: $background-color;
 }
 }
 
