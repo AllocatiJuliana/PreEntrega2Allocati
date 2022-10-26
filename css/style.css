@@ -84,6 +84,7 @@ nav {
 
 ul {
   list-style: none;
+  padding: 0px;
 }
 
 footer {
@@ -139,11 +140,17 @@ h2 {
 }
 
 .formulario {
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 .carousel-inner {
   margin-top: 50px;
+}
+
+.consulta {
+  font-size: medium;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
@@ -151,14 +158,20 @@ h2 {
     margin-top: 75px;
     margin-bottom: 30px;
   }
-  nav li {
+  nav ul {
+    padding-left: 1rem;
+  }
+  nav ul li {
     display: inline;
     margin: 30px;
   }
-  nav li a, nav li .contacto {
+  nav ul li a, nav ul li .contacto {
     font-size: x-large;
   }
   a, .contacto {
+    font-size: large;
+  }
+  .consulta {
     font-size: large;
   }
 }
@@ -173,5 +186,8 @@ h2 {
   }
   .facebook:hover, .instagram:hover, .twitter:hover {
     transform: scale(1.5);
+  }
+  .consulta {
+    font-size: x-large;
   }
 }/*# sourceMappingURL=style.css.map */
